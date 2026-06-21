@@ -1,0 +1,12 @@
+# Secrets — ne jamais committer
+.env
+.streamlit/secrets.toml
+
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit cache
+.streamlit/cache/
