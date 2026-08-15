@@ -1,6 +1,10 @@
 # Secrets — ne jamais committer
 .env
+.env.*
+!.env.example
 .streamlit/secrets.toml
+*.pem
+*.key
 
 # Environnement Python
 .venv/

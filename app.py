@@ -4,6 +4,7 @@ Interface Streamlit — Agent Expert IBM AS400 / SIGIP / OPS / ARCAD
 
 import uuid
 import os
+import hashlib
 import streamlit as st
 from dotenv import load_dotenv
 from agent_ibm import create_ibm_agent, ask_agent, init_langfuse
@@ -161,8 +162,9 @@ if prompt:
         st.error("⚠️ Veuillez renseigner votre clé API OpenAI dans la barre latérale.")
         st.stop()
 
-    # Création / recréation de l'agent si nécessaire
-    agent_key = f"{api_key}_{model}"
+    # Création / recréation de l'agent si nécessaire.
+    # On hache la clé API : la valeur en clair ne doit jamais transiter par session_state.
+    agent_key = hashlib.sha256(f"{api_key}_{model}".encode()).hexdigest()
     if st.session_state.agent is None or st.session_state.get("agent_key") != agent_key:
         with st.spinner("Initialisation de l'agent..."):
             try:
