@@ -43,7 +43,7 @@ flowchart LR
 | `get_ops_info` | Fonctionnement du module OPS | **5 sujets** (scheduler, monitoring, alertes, jobs, configuration) |
 | `get_best_practices` | Recommandations opérationnelles | **4 contextes** (sauvegarde, sécurité, performance, maintenance) |
 
-> **Honnêteté technique** — la base de connaissances est *statique et embarquée* dans [`agent_ibm.py`](agent_ibm.py). L'agent ne se connecte pas à une machine AS400 réelle : il n'exécute aucune commande, il explique. C'est un choix délibéré (sécurité, reproductibilité, absence de dépendance à un système de production). Brancher un backend live — SQL sur DB2 for i, ou API IBM i Access — se ferait en remplaçant le corps des tools, sans toucher à l'agent.
+>  la base de connaissances est *statique et embarquée* dans [`agent_ibm.py`](agent_ibm.py). L'agent ne se connecte pas à une machine AS400 réelle : il n'exécute aucune commande, il explique. C'est un choix délibéré (sécurité, reproductibilité, absence de dépendance à un système de production). Brancher un backend live — SQL sur DB2 for i, ou API IBM i Access — se ferait en remplaçant le corps des tools, sans toucher à l'agent.
 
 ## Fonctionnalités
 
@@ -155,13 +155,4 @@ Deux fichiers, une séparation nette : `agent_ibm.py` ne connaît rien de Stream
 | Observabilité | Langfuse Cloud (`CallbackHandler`) |
 | Gestion des secrets | `python-dotenv` + `st.secrets` |
 
-## Pistes d'évolution
 
-- Connexion live en lecture seule à DB2 for i pour l'état réel des jobs et bibliothèques
-- Base de connaissances externalisée (YAML/SQLite) puis recherche vectorielle, pour dépasser le lookup par mot-clé exact
-- Évaluations Langfuse sur un jeu de questions de référence, pour mesurer les régressions à chaque évolution du prompt
-- Authentification et historique persistant par utilisateur
-
----
-
-*Projet personnel — démonstration d'un agent LLM outillé sur un domaine métier de niche.*
