@@ -57,10 +57,9 @@ flowchart LR
 
 ## Démo
 
-<!-- Ajoute une capture d'écran ici : docs/screenshot.png -->
-<!-- ![Interface de l'agent](docs/screenshot.png) -->
+![Interface de l'agent — réponse structurée à une question AS400](docs/screenshot.png)
 
-*Capture d'écran à venir.*
+Ci-dessus, l'agent répond à *« Comment voir les jobs actifs sur l'AS400 ? »* : il appelle `get_as400_command_help`, en tire la description et les paramètres réels de `WRKACTJOB`, puis compose la réponse selon le plan imposé. La sidebar expose le choix du modèle, l'état de la connexion Langfuse et les domaines couverts.
 
 ## Démarrage rapide
 
