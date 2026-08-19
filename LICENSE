@@ -1,0 +1,208 @@
+LICENCE DE CONSULTATION ET D'USAGE — TOUS DROITS RÉSERVÉS
+SOURCE-AVAILABLE LICENSE — ALL RIGHTS RESERVED
+
+Copyright (c) 2026 Romain Guillon. Tous droits réservés / All rights reserved.
+
+================================================================================
+VERSION FRANÇAISE (version faisant foi)
+================================================================================
+
+1. OBJET
+
+Le présent logiciel, son code source, sa documentation et l'ensemble des
+éléments qui le composent (ci-après « le Logiciel ») sont la propriété
+exclusive de Romain Guillon (ci-après « l'Auteur »).
+
+Le Logiciel est publié en accès visible (« source-available ») à seule fin de
+démonstration des compétences techniques de l'Auteur. Il ne s'agit PAS d'un
+logiciel libre ni open source au sens des définitions de la Free Software
+Foundation ou de l'Open Source Initiative.
+
+2. DROITS ACCORDÉS
+
+L'Auteur accorde à toute personne accédant au Logiciel, à titre gratuit, non
+exclusif, non transférable et révocable, le droit de :
+
+  a) consulter et lire le code source à des fins d'évaluation, d'appréciation
+     des compétences de l'Auteur ou d'apprentissage personnel ;
+
+  b) exécuter le Logiciel, tel quel et sans modification, à des fins
+     strictement personnelles, d'essai ou d'évaluation ;
+
+  c) utiliser les instances du Logiciel mises en ligne par l'Auteur, dans les
+     conditions d'usage qu'il définit.
+
+3. DROITS EXPRESSÉMENT NON ACCORDÉS
+
+Sont interdits, en l'absence d'une autorisation écrite et préalable de
+l'Auteur :
+
+  a) la reproduction, la copie ou l'extraction de tout ou partie du code
+     source, y compris de fragments, d'algorithmes, de structures de données,
+     de fichiers de configuration ou de contenus d'invites (« prompts ») ;
+
+  b) la modification, l'adaptation, la traduction, la refactorisation ou la
+     création de toute œuvre dérivée ;
+
+  c) la distribution, la republication, la mise à disposition, la vente, la
+     location, le sous-licenciement ou le transfert du Logiciel, sous quelque
+     forme et sur quelque support que ce soit ;
+
+  d) tout usage commercial, professionnel ou interne à une organisation, y
+     compris l'intégration dans un produit, un service, un livrable client ou
+     une infrastructure de production ;
+
+  e) l'exploitation du Logiciel dans le cadre d'un service en ligne, d'une
+     offre SaaS ou d'une prestation facturée à un tiers ;
+
+  f) la suppression, l'altération ou la dissimulation des mentions de
+     copyright, des en-têtes de fichiers ou du présent fichier de licence ;
+
+  g) l'utilisation du Logiciel, en tout ou partie, pour l'entraînement,
+     l'affinage (« fine-tuning »), l'évaluation ou l'alimentation de tout
+     modèle d'apprentissage automatique ou système d'intelligence
+     artificielle, ainsi que sa collecte automatisée à ces fins.
+
+La faculté de dupliquer le dépôt (« fork ») offerte par la plateforme
+d'hébergement relève des conditions générales de celle-ci ; elle n'emporte
+aucune cession de droits au titre de la présente licence et ne dispense
+d'aucune des interdictions ci-dessus.
+
+4. LICENCE COMMERCIALE
+
+Toute utilisation excédant l'article 2 est possible dans le cadre d'une
+licence commerciale distincte. Les demandes sont à adresser à l'Auteur, dont
+les coordonnées figurent dans le fichier NOTICE.md.
+
+5. PROPRIÉTÉ INTELLECTUELLE
+
+La présente licence n'opère aucun transfert de propriété. L'Auteur conserve
+l'intégralité de ses droits patrimoniaux et moraux sur le Logiciel. Aucun
+droit n'est accordé sur les marques, noms commerciaux, logos ou signes
+distinctifs de l'Auteur.
+
+6. COMPOSANTS TIERS
+
+Les bibliothèques et composants tiers utilisés par le Logiciel demeurent régis
+par leurs licences respectives, dont la liste figure, le cas échéant, dans les
+fichiers de dépendances du projet. La présente licence ne s'applique qu'aux
+éléments originaux créés par l'Auteur.
+
+7. ABSENCE DE GARANTIE
+
+LE LOGICIEL EST FOURNI « EN L'ÉTAT », SANS GARANTIE D'AUCUNE SORTE, EXPRESSE
+OU IMPLICITE, NOTAMMENT SANS GARANTIE DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN
+USAGE PARTICULIER OU D'ABSENCE DE CONTREFAÇON. L'AUTEUR NE SAURAIT ÊTRE TENU
+RESPONSABLE DE TOUT DOMMAGE DIRECT OU INDIRECT RÉSULTANT DE L'UTILISATION DU
+LOGICIEL, DANS LES LIMITES AUTORISÉES PAR LA LOI.
+
+8. RÉSILIATION
+
+Tout manquement aux présentes entraîne la résiliation automatique et immédiate
+des droits accordés à l'article 2, sans préjudice des actions que l'Auteur
+pourrait engager. L'Auteur peut, à sa discrétion, accorder un délai de
+régularisation de trente (30) jours à compter d'une notification écrite.
+
+9. DROIT APPLICABLE
+
+La présente licence est régie par le droit français. Le Logiciel est protégé
+par le Code de la propriété intellectuelle, notamment ses articles L.111-1 et
+L.122-6. Tout litige relève de la compétence des tribunaux français.
+
+================================================================================
+ENGLISH VERSION (translation for information — the French version prevails)
+================================================================================
+
+1. SCOPE
+
+This software, its source code, documentation and all constituent elements
+(the "Software") are the exclusive property of Romain Guillon (the "Author").
+
+The Software is published as source-available for the sole purpose of
+demonstrating the Author's technical skills. It is NOT free software or open
+source software within the meaning of the Free Software Foundation or Open
+Source Initiative definitions.
+
+2. RIGHTS GRANTED
+
+The Author grants any person accessing the Software a free, non-exclusive,
+non-transferable and revocable right to:
+
+  a) view and read the source code for evaluation, assessment of the Author's
+     skills, or personal learning;
+
+  b) run the Software, as is and unmodified, for strictly personal, trial or
+     evaluation purposes;
+
+  c) use instances of the Software deployed online by the Author, under the
+     terms of use he defines.
+
+3. RIGHTS EXPRESSLY NOT GRANTED
+
+Without the Author's prior written permission, the following are prohibited:
+
+  a) reproducing, copying or extracting all or part of the source code,
+     including fragments, algorithms, data structures, configuration files or
+     prompt contents;
+
+  b) modifying, adapting, translating, refactoring or creating any derivative
+     work;
+
+  c) distributing, republishing, making available, selling, renting,
+     sublicensing or transferring the Software in any form or medium;
+
+  d) any commercial, professional or organisation-internal use, including
+     integration into a product, service, client deliverable or production
+     infrastructure;
+
+  e) operating the Software as part of an online service, SaaS offering or
+     paid engagement for a third party;
+
+  f) removing, altering or obscuring copyright notices, file headers or this
+     license file;
+
+  g) using the Software, in whole or in part, for training, fine-tuning,
+     evaluating or feeding any machine learning model or artificial
+     intelligence system, or scraping it for such purposes.
+
+The hosting platform's fork facility is governed by that platform's terms of
+service; it conveys no rights under this license and waives none of the above
+prohibitions.
+
+4. COMMERCIAL LICENSE
+
+Any use beyond Section 2 may be granted under a separate commercial license.
+Enquiries should be directed to the Author; contact details are in NOTICE.md.
+
+5. INTELLECTUAL PROPERTY
+
+This license transfers no ownership. The Author retains all economic and moral
+rights in the Software. No rights are granted in the Author's trademarks,
+trade names, logos or distinctive signs.
+
+6. THIRD-PARTY COMPONENTS
+
+Third-party libraries and components used by the Software remain governed by
+their respective licenses, listed where applicable in the project's dependency
+files. This license applies only to original material created by the Author.
+
+7. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. TO THE EXTENT PERMITTED
+BY LAW, THE AUTHOR SHALL NOT BE LIABLE FOR ANY DIRECT OR INDIRECT DAMAGES
+ARISING FROM USE OF THE SOFTWARE.
+
+8. TERMINATION
+
+Any breach terminates the rights granted in Section 2 automatically and
+immediately, without prejudice to any action the Author may bring. The Author
+may, at his discretion, grant a thirty (30) day cure period from written
+notice.
+
+9. GOVERNING LAW
+
+This license is governed by French law. The Software is protected under the
+French Intellectual Property Code, in particular Articles L.111-1 and L.122-6.
+Any dispute falls within the jurisdiction of the French courts.

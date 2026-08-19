@@ -1,3 +1,10 @@
+# Copyright (c) 2026 Romain Guillon. Tous droits réservés.
+#
+# Ce fichier est publié en accès visible à des fins de démonstration.
+# Toute reproduction, modification, redistribution ou utilisation
+# commerciale est interdite sans autorisation écrite préalable.
+# Voir le fichier LICENSE à la racine du dépôt.
+
 """
 Agent Expert IBM AS400 / SIGIP / OPS
 Basé sur LangChain v1.0 + create_agent

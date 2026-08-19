@@ -7,6 +7,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Langfuse](https://img.shields.io/badge/Langfuse-observability-0A0A0A)](https://langfuse.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?logo=openai&logoColor=white)](https://platform.openai.com/)
+[![Licence](https://img.shields.io/badge/licence-source--available-C62828)](LICENSE)
 
 ---
 
@@ -155,4 +156,33 @@ Deux fichiers, une séparation nette : `agent_ibm.py` ne connaît rien de Stream
 | Observabilité | Langfuse Cloud (`CallbackHandler`) |
 | Gestion des secrets | `python-dotenv` + `st.secrets` |
 
+---
 
+## 📄 Licence
+
+**Copyright (c) 2026 Romain Guillon — Tous droits réservés.**
+
+Ce dépôt est publié en **accès visible (*source-available*)** : le code est
+consultable pour évaluer mon travail, mais il **n'est pas open source**.
+
+|  | Autorisé | Interdit |
+|---|---|---|
+| **Lire le code** | ✅ | |
+| **Installer et lancer l'agent pour l'essayer** | ✅ | |
+| **Copier le code, les tools ou les prompts** | | ❌ |
+| **Modifier / créer une œuvre dérivée** | | ❌ |
+| **Redistribuer / republier** | | ❌ |
+| **Usage commercial ou en production** | | ❌ |
+| **Entraîner un modèle d'IA dessus** | | ❌ |
+
+Conditions complètes : [`LICENSE`](LICENSE) — mentions et contact :
+[`NOTICE.md`](NOTICE.md).
+
+> Vous avez le même problème de départs en retraite sur un socle technique
+> ancien ? La méthode se transpose à d'autres domaines que l'AS/400 — voir
+> [`NOTICE.md`](NOTICE.md).
+
+**English —** This repository is *source-available*, not open source. You may
+read the code and run it locally; you may not copy, modify, redistribute or use
+it commercially. See [`LICENSE`](LICENSE). Commercial licensing available on
+request.
